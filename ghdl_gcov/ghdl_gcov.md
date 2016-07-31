@@ -10,8 +10,8 @@ Being integrated into the gcc compiler environment, GHDL itself and the resultin
 
 Further information can be found at
 
-- http://ghdl.free.fr/
-- http://gcc.gnu.org/
+- <http://ghdl.free.fr/>
+- <http://gcc.gnu.org/>
 
 ## Motivation ##
 Verification of a hardware design is an important and time consuming job. Personally, I think that verifying a design is more effort than coding it - and you never know when you're finished. The decision whether a design has undergone enough verification or not is not easy and there are no signs that tell you that you're 100% done.
@@ -34,7 +34,7 @@ This document will focus on line coverage as it is the most simple metric and wi
 Keep in mind that 100% code coverage does not mean 100% verification. Code coverage does not mean test coverage, i.e. a program that stimulates all code lines but does not check anything achieves 100% code coverage but almost no test coverage (and is thus useless for verification). As was written before: code coverage tells you where your verification is definitley missing something. It does not tell you anything about its quality.
 
 ## Prerequisites ##
-In addition to a recent version of GHDL (0.11.1 at the time of this writing) you need the gcc compiler suite. It has to be the same gcc version that has been used to compile GHDL. For GHDL 0.11.1 this is gcc 3.3.3 from http://gcc.gnu.org/. Some linux distributions enhance the precompiled gcc binaries with additional patches, but these influence the behaviour and file formats of gcov. Therefore, it's recommended to use the original gcc.
+In addition to a recent version of GHDL (0.11.1 at the time of this writing) you need the gcc compiler suite. It has to be the same gcc version that has been used to compile GHDL. For GHDL 0.11.1 this is gcc 3.3.3 from <http://gcc.gnu.org/>. Some linux distributions enhance the precompiled gcc binaries with additional patches, but these influence the behaviour and file formats of gcov. Therefore, it's recommended to use the original gcc.
 
 It took me quite a while to figure this out, but I didn't want to migrate from the version I am currently using. To accomodate this requirement, gcc can be installed into a separate place where it does not interfere with other versions of gcc. All it takes to set it up is this:
 
@@ -70,7 +70,7 @@ When the design is executed, the coverage information is collected and dumped to
 
 Using the three files `unit.bb`, `unit.bbg` and `unit.da`, `'gcov unit.vhd'` generates the coverage report unit.vhd.gcov, listing every line of the source file annotated with the number of times each line was passed during execution. As written before, this information is accumulative because every run adds its own coverage numbers to `unit.da` instead of overwriting it and filling it from scratch. It is therefore possible to run a whole suite of tests and find the complete result of all testcases combined in this file.
 
-A sample coverage report can be found here: [alu.vhd.gcov.gz](alu.vhd.gcov.gz). It is taken from the [T48 µController](http://www.opencores.org/projects.cgi/web/t48/overview/) project at [OpenCores.org](http://www.opencores.org/).
+A sample coverage report can be found here: [alu.vhd.gcov.gz](alu.vhd.gcov.gz). It is taken from the [T48 µController](http://opencores.org/project,t48) project at [OpenCores.org](http://www.opencores.org/).
 
 
 In addition to line coverage, gcov can generate information about branch probability when the -b option is specified on the gcov command line. It takes quite a lot of guesswork to interpret the report as the notation of calls and branches used by gcov is not very intuitive in relation to VHDL.

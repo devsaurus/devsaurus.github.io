@@ -26,8 +26,8 @@ Hardware:
 
 - apparantly a Gameboy Advance
 - some kind of EZ-USB prototype board
-  - http://www.devasys.com/usbi2cio.htm
-  - http://www.omnigroup.com/~wiml/soft/pic/keyspan.html
+  - <http://www.devasys.com/usbi2cio.htm>
+  - <http://www.omnigroup.com/~wiml/soft/pic/keyspan.html>
 - a cable to connect both, see [multiboot_schematic.pdf](multiboot_schematic.pdf)
 - a computer wih USB
 
@@ -39,8 +39,8 @@ Software:
 - a C compiler (e.g. [gcc](http://www.gnu.org/)) to build the host application
 - [gtk](http://www.gtk.org/), the Gimp Toolkit v1.2.x
 - a firmware downloader to transfer the firmware to the EZ-USB proto board
-  - http://ezusb2131.sourceforge.net/
-  - http://linux-hotplug.sourceforge.net/ (look for fxload)
+  - <http://ezusb2131.sourceforge.net/>
+  - <http://linux-hotplug.sourceforge.net/> (look for fxload)
 - optionally [SDCC](http://sdcc.sourceforge.net/) to compile the firmware yourself
 
 ## What you've got to do ##
@@ -61,6 +61,6 @@ Software:
 Once the firmware has been downloaded to the proto board, consecutive GBA files can be transfered to the GBA. If communications hang, unplug the proto board and download the firmware again.
 
 ## Where to find additional information ##
-- http://program.at/Andrew/
-- http://ajo.thinknerd.com/gba/
-- http://davidwu_2001.tripod.com/root/
+- <http://program.at/Andrew/>
+- <http://ajo.thinknerd.com/gba/>
+- <http://davidwu_2001.tripod.com/root/>
