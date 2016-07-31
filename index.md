@@ -5,14 +5,26 @@ title: Home
 
 ## Information about the Intel MCS-48 family ##
 - [Grokking the MCS-48 System](mcs-48/mcs-48.pdf)
-- [An MCS-48 compatible core written in VHDL](http://opencores.org/?do=project&who=t48)
+- [An MCS-48 compatible core written in VHDL](http://opencores.org/project,t48)
 
 ## VHDL related topics ##
 - [Evaluating VHDL Code Coverage Using GHDL and gcov](ghdl_gcov/ghdl_gcov.html)
-- [A collection of gamepad controller cores](http://opencores.org/?do=project&who=gamepads)
-- [SD/MMC Bootloader](http://opencores.org/?do=project&who=spi_boot) - a core to configure and bootstrap FPGAs via MMC and SD cards
-- The 4-bit [T400 µController](http://opencores.org/?do=project&who=t400) project
-- [Merging BRAM data into bitstream files](http://home.mnet-online.de/al/BRAM_Bitstreams.html)
+- [A collection of gamepad controller cores](http://opencores.org/project,gamepads)
+- [SD/MMC Bootloader](http://opencores.org/project,spi_boot) - a core to configure and bootstrap FPGAs via MMC and SD cards
+- The 4-bit [T400 µController](http://opencores.org/project,t400) project
+- [Merging BRAM data into bitstream files](BRAM_Bitstreams.html)
+
+## Arcade Gaming ##
+- [The FPGA Lady Bug Project](http://home.freeuk.com/fpgaarcade/lady_main.htm)
+- [The FPGA Colecovision Project](http://home.freeuk.com/fpgaarcade/cv.htm)
+- [The FPGA Adventure Vision Project](http://home.freeuk.com/fpgaarcade/av.htm)
+- [The FPGA Videopac Project](http://home.freeuk.com/fpgaarcade/videopac.htm)
+- [Konami Custom CPLD Designs](http://home.freeuk.com/fpgaarcade/konami_customs.html)
+
+All at [fpgaarcade.com](http://www.fpgaarcade.com/).
+
+## Misc Electronics ##
+- [SVF player](http://sourceforge.net/tracker/index.php?func=detail&aid=1074347&group_id=52603&atid=469852) patch for the [openwince jtag tools](http://openwince.sourceforge.net/jtag.php)
 
 ## Stuff for the HandSpring Visor ##
 - [Serial HotSync patch for the Visor USB-cradle](visor_cradle/serial_patch.html)

@@ -78,3 +78,5 @@ In addition to line coverage, gcov can generate information about branch probabi
 ## Conclusion ##
 
 This report gives an introduction how to start with code coverage using GHDL, a free VHDL compiler based on gcc. Thanks to the integration with gcc, GHDL is able to produce suitable information for analyzing line coverage of arbitrary VHDL designs.Furthermore, it is expected that GHDL will benefit from future improvements of gcc/gcov let alone features of gcc that haven't been explored yet in the context of VHDL and hardware design.
+
+> July 2005
