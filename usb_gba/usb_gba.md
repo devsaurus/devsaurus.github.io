@@ -14,15 +14,16 @@ Full-blown, commercial-like, ready to use software to plug-and-play with. The th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 ## Where will you find it ##
-- `multiboot/...`
+- `multiboot/...`  
   Firmware for the AN2131 (aka EZ-USB) device that implements the multiboot protocol. Together with a host application, software for the GBA can be downloaded into 'external WRAM'.
-- `apps/...`
+- `apps/...`  
   Host applications which connect to the multiboot firmware on an EZ-USB device. Both command line and GUI versions are provided.
-- `include/...`
+- `include/...`  
   Various include files needed to build the firmware and the host applications.
 
 ## What you will need ##
 Hardware:
+
 - apparantly a Gameboy Advance
 - some kind of EZ-USB prototype board
   - http://www.devasys.com/usbi2cio.htm
@@ -31,6 +32,7 @@ Hardware:
 - a computer wih USB
 
 Software:
+
 - the [usb_gba package](usb_gba-1.1.tar.gz) version 1.1 (here is [1.0](usb_gba-1.0.tar.gz))
 - an operating system with USB support (preferably Linux, others might do as well)
 - [libusb](http://libusb.sourceforge.net/) to handle all the USB interfacing stuff
