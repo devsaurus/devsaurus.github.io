@@ -27,11 +27,11 @@ Hardware:
 - some kind of EZ-USB prototype board
   - http://www.devasys.com/usbi2cio.htm
   - http://www.omnigroup.com/~wiml/soft/pic/keyspan.html
-- a cable to connect both, see [multiboot_schematic.pdf](usb_gba/multiboot_schematic.pdf)
+- a cable to connect both, see [multiboot_schematic.pdf](multiboot_schematic.pdf)
 - a computer wih USB
 
 Software:
-- the [usb_gba package](usb_gba/usb_gba-1.1.tar.gz) version 1.1 (here is [1.0](usb_gba/usb_gba-1.0.tar.gz))
+- the [usb_gba package](usb_gba-1.1.tar.gz) version 1.1 (here is [1.0](usb_gba-1.0.tar.gz))
 - an operating system with USB support (preferably Linux, others might do as well)
 - [libusb](http://libusb.sourceforge.net/) to handle all the USB interfacing stuff
 - a C compiler (e.g. [gcc](http://www.gnu.org/)) to build the host application
@@ -43,20 +43,18 @@ Software:
 
 ## What you've got to do ##
 1. Install libusb.
-2. Compile the host application:
-```
-cd app
-make all
-```
+2. Compile the host application:  
+  `cd app`  
+  `make all`  
 3. Install your preferred firmware downloader.
 4. Build the multiboot cable.
-5. Connect the GBA and the proto board with the cable.
+5. Connect the GBA and the proto board with the cable.  
    Power on the GBA.
 6. Download multiboot.ihx to the proto board.
-7. Run the host application:
-   `xmb`
-   or
-   `mb <filename>`
+7. Run the host application:  
+   `xmb`  
+   or  
+   `mb <filename>`  
 
 Once the firmware has been downloaded to the proto board, consecutive GBA files can be transfered to the GBA. If communications hang, unplug the proto board and download the firmware again.
 
