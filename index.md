@@ -34,3 +34,6 @@ All at [fpgaarcade.com](http://www.fpgaarcade.com/).
 
 ## Gameboy Advance related things ##
 - The [USB to GBA](usb_gba/usb_gba.html) package.
+
+## Miscellaneous
+- [How to install alfaview on openSUSE Leap 15.1](https://gist.github.com/devsaurus/95ca70de3605547d71d86590ecd32543)
