@@ -37,3 +37,4 @@ All at [fpgaarcade.com](http://www.fpgaarcade.com/).
 
 ## Miscellaneous
 - [How to install alfaview on openSUSE Leap 15.1](misc/alfaview.html)
+- [Filtering web sites using firewall IP sets](misc/openwrt_ipset.html)
