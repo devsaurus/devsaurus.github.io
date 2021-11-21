@@ -15,13 +15,13 @@ title: Home
 - [Merging BRAM data into bitstream files](BRAM_Bitstreams.html)
 
 ## Arcade Gaming ##
-- [The FPGA Lady Bug Project](http://home.freeuk.com/fpgaarcade/lady_main.htm)
-- [The FPGA Colecovision Project](http://home.freeuk.com/fpgaarcade/cv.htm)
-- [The FPGA Adventure Vision Project](http://home.freeuk.com/fpgaarcade/av.htm)
-- [The FPGA Videopac Project](http://home.freeuk.com/fpgaarcade/videopac.htm)
-- [Konami Custom CPLD Designs](http://home.freeuk.com/fpgaarcade/konami_customs.html)
+- [The FPGA Lady Bug Project](https://www.fpgaarcade.com/kb/ladybug/)
+- [The FPGA Colecovision Project](https://www.fpgaarcade.com/kb/colecovision/)
+- [The FPGA Adventure Vision Project](https://www.fpgaarcade.com/kb/adventure-vision/)
+- [The FPGA Videopac Project](https://www.fpgaarcade.com/kb/videopac/)
+- [Sanyo VLM5030 recreation](https://www.fpgaarcade.com/tag/vlm5030/)
 
-All at [fpgaarcade.com](http://www.fpgaarcade.com/).
+And more at [fpgaarcade.com](http://www.fpgaarcade.com/).
 
 ## Misc Electronics ##
 - [SVF player](http://sourceforge.net/tracker/index.php?func=detail&aid=1074347&group_id=52603&atid=469852) patch for the [openwince jtag tools](http://openwince.sourceforge.net/jtag.php)
