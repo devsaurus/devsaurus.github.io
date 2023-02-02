@@ -5,13 +5,13 @@ title: Home
 
 ## Information about the Intel MCS-48 family ##
 - [Grokking the MCS-48 System](mcs-48/mcs-48.pdf)
-- [An MCS-48 compatible core written in VHDL](http://opencores.org/project,t48)
+- [An MCS-48 compatible core written in VHDL](https://github.com/devsaurus/t48)
 
 ## VHDL related topics ##
 - [Evaluating VHDL Code Coverage Using GHDL and gcov](ghdl_gcov/ghdl_gcov.html)
 - [A collection of gamepad controller cores](http://opencores.org/project,gamepads)
 - [SD/MMC Bootloader](http://opencores.org/project,spi_boot) - a core to configure and bootstrap FPGAs via MMC and SD cards
-- The 4-bit [T400 µController](http://opencores.org/project,t400) project
+- The 4-bit [T400 µController](https://github.com/devsaurus/t400) project
 - [Merging BRAM data into bitstream files](BRAM_Bitstreams.html)
 
 ## Arcade Gaming ##
